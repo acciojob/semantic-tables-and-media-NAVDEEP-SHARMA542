@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+
+    <!-- TABLE -->
     <table border="1">
         <thead>
-            <td>Roll numbers</td>
-            <td>Names</td>
+            <tr>
+                <th>Roll numbers</th>
+                <th>Names</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -27,15 +30,32 @@
             </tr>
         </tbody>
     </table>
+
+    <!-- MEDIA LIST -->
     <h2>List of medias</h2>
     <ol>
-        <img src="https://picsum.photos/id/123/200/300" alt="random picture">
+        <li>
+            <img
+                src="https://picsum.photos/id/123/200/300"
+                alt="Random placeholder image"
+            >
+        </li>
+
+        <li>
+            <video controls>
+                <source
+                    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                    type="video/mp4"
+                >
+            </video>
+        </li>
+
+        <li>
+            <audio controls
+                src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+            </audio>
+        </li>
     </ol>
-    <ol>
-        <video controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"></video>
-    </ol>
-    <ol>
-        <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg"></audio>
-    </ol>
+
 </body>
 </html>
